@@ -42,12 +42,11 @@ $(document).ready(function () { // jQuery Flavor dropdown
 		let userPositiveEffect = $('#effect-choice option:selected').text();
 		let userMedicalEffect = $('#type-choice option:selected').text();
 
-
-		//let queryFlavor = flavorQuery(`${flavor}`);
 		filter.then(function (response) {
 			let i = 0;
 			let body = JSON.parse(response);
-
+			
+			//Regex function for Leafly URL endpoints
 			Object.keys(body).forEach(function (key) {
 
 					let name = key;
