@@ -1,24 +1,24 @@
-# [The Strain API](https://github.com/ryanglenferris/dankabase.git)
+# [The Strain API](http://strains.evanbusse.com)
 
-#### Project for Epicodus focusing on API's using JavaScript. This application will use the [The Strain API](https://github.com/ryanglenferris/dankabase.git) to help users find Strains of Marijuana.
+#### Project for Epicodus focusing on API's using JavaScript. This application will use the [The Strain API](http://strains.evanbusse.com) to help users find Strains of Marijuana.
 
 By **[Matthew Jackson](https://github.com/madjacks12)** and **[Ryan G Ferris](https://github.com/ryanglenferris?tab=stars)**
 
 # DESCRIPTION
-* This web app implements [The Strain API](https://github.com/ryanglenferris/dankabase.git), allowing users to search for Marijuana Strains and their corresponding details.
+* This web app implements [The Strain API](http://strains.evanbusse.com), allowing users to search for Marijuana Strains and their corresponding details.
 * Also utilizes the [Leafly](https://www.leafly.com/) website (not their API).
-* After searching for a Strain using the [The Strain API](https://github.com/ryanglenferris/dankabase.git) a user can click a link that will take them to the [Leafly](https://www.leafly.com/) URL end point for the particular Strain to find where (if possible) they can purchase it from.
+* After searching for a Strain using the [The Strain API](http://strains.evanbusse.com) a user can click a link that will take them to the [Leafly](https://www.leafly.com/) URL end point for the particular Strain to find where (if possible) they can purchase it from.
   *  This functionality is accomplished using a [Regex function](https://github.com/ryanglenferris/dankabase/blob/527c7b030d51954f284e2703bf3cbcf204efaf2c/app/src/index-interface.js#L50-L74) that creates the Leafly URL endpoint based on the name of the Strain.
 
 ## SETUP/INSTALLATION REQUIREMENTS
 
 * Download and install an up to date web browser
-* Click on the following [link](https://github.com/ryanglenferris/dankabase.git) to use the [The Strain API](https://github.com/ryanglenferris/dankabase.git).
+* Click on the following [link](https://github.com/ryanglenferris/dankabase.git) to use the [The Strain API](http://strains.evanbusse.com).
 
 ## API SETUP
-* Go to the [The Strain API](https://github.com/ryanglenferris/dankabase.git) website, and get your own API Key.
+* Go to the [The Strain API](http://strains.evanbusse.com) website, and get your own API Key.
 * In the root directory, create a file, and label it as the **.env** file.
-* Copy the code below into your **.env** file; and replace the **API_KEY** with the **user_key** provided by the [The Strain API](https://github.com/ryanglenferris/dankabase.git).
+* Copy the code below into your **.env** file; and replace the **API_KEY** with the **user_key** provided by the [The Strain API](http://strains.evanbusse.com).
 ```
 exports.apiKey = "API_KEY";
 ```
