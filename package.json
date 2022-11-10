@@ -24,7 +24,7 @@
 		"url-loader": "^0.6.2",
 		"webpack": "^3.11.0",
 		"webpack-dev-server": "^2.11.1",
-		"webpack-karma-jasmine": "^1.0.4",
+		"webpack-karma-jasmine": "^4.0.0",
 		"webpack-merge": "^4.1.1",
 		"webpack-node-externals": "^1.6.0"
 	},
